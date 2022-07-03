@@ -1,0 +1,59 @@
+.body {
+  background-image: url("texture.jpg");
+  background-repeat: repeat;
+  background-size: contain;
+}
+.container {
+  /* position: absolute; */
+  margin-top: 10px;
+  margin-right: 150px;
+  margin-left: 150px;
+  /* margin: 50px; */
+  width: auto;
+  border-radius: 100px;
+
+}
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+  border-radius: 100px;
+
+}
+.topnav a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 20px 100px;
+  text-decoration: none;
+  font-size: 17px;
+  /* border: 2px solid #474747; */
+  border-radius: 100px;
+}
+
+.topnav a:hover {
+  background-color: #8d30ff;
+}
+.con {
+  background-color: #8d30ff;
+  margin-left: 20px;
+  margin-right: 20px;
+  border-radius: 50px;
+  box-shadow: 6px 7px 13px 3px;
+}
+p {
+  text-align: center;
+  color: white;
+  padding: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+ul, li {
+  font-size: 50px;
+  font-weight: bolder;
+}
+iframe {
+  margin-left: -30px;
+  background-color: white;
+  border: 2px solid black;
+  padding: 50px;
+}

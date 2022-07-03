@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="./register.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+    <title>Getpets registration</title>
+  </head>
+  <body class="body">
+    <!-- <div id="error"></div> -->
+    <form id="form" class="form" action="index.html" method="post">
+        <h2>Getpets</h2>
+        <div class="form-control">
+     <!-- <label for="name">Full Name</label> -->
+      <input type="text" id="name" placeholder="Name">
+			<i class="fas fa-check-circle"></i>
+			<i class="fas fa-exclamation-circle"></i>
+			<small>Error message</small>
+		</div>
+        <div class="form-control">
+     <!-- <label for="email">Email</label> -->
+      <input type="email" placeholder="Email" id="email">
+      <i class="fas fa-check-circle"></i>
+			<i class="fas fa-exclamation-circle"></i>
+			<small>Error message</small>
+            </div>
+        <div class="form-control">
+     <!-- <label for="password">Password</label> -->
+      <input type="password" id="password" placeholder="Password">
+      <i class="fas fa-check-circle"></i>
+			<i class="fas fa-exclamation-circle"></i>
+			<small>Error message</small>
+            </div>
+      <button>Sign up</button>
+      <p>Already a user ? <a href="login.html">Sign in</a></p>
+    </form>
+    <script type="text/javascript" src="registration.js"></script>
+  </body>
+</html>

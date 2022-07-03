@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="pet2.css"?>
+<pets>
+    <heading>Top pets</heading>
+    <pet>
+        <title>1</title>
+        <Name>Persian</Name>
+        <amount>10,000/-</amount>
+        <place>Madathukulam</place>
+        <star> star -: 5/5</star>
+    </pet>
+    <pet>
+        <title>2</title>
+        <Name>German shepard</Name>
+        <amount>10,000/-</amount>
+        <place>Madathukulam</place>
+        <star> star -: 4.9/5</star>
+    </pet>
+    <pet>
+        <title>3</title>
+        <Name>Munchkin</Name>
+        <amount>5000/-</amount>
+        <place>Madathukulam</place>
+        <star> star -: 4.5/5</star>
+    </pet>
+    <pet>
+        <title>4</title>
+        <Name>Lovebirds</Name>
+        <amount>500/-</amount>
+        <place>Madathukulam</place>
+        <star> star -: 4.7/5</star>
+    </pet>
+    <pet>
+        <title>5</title>
+        <Name>Fighters</Name>
+        <amount>1000/-</amount>
+        <place>Madathukulam</place>
+        <star> star -: 4.5/5</star>
+    </pet>
+</pets>

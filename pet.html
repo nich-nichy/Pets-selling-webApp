@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Getpets</title>
+  <link rel="stylesheet" href="pet.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
+</head>
+<body ng-app="formExample" class="body">
+  <div class="wrapper">
+  <div ng-controller="ExampleController">
+  <form novalidate class="css-form">
+    <h2>Getpets</h2>
+    <p>Confirm your details</p>
+    <label class="labnam">Name: <input type="text" ng-model="details.name" required class="name"/></label><br />
+    <label class="labema">E-mail: <input type="email" ng-model="details.email" required class="email"/></label><br />
+    Your pets category: <label><input type="radio" ng-model="details.yourpet" value="cat" />Cat</label>
+    <label><input type="radio" ng-model="details.yourpet" value="dog" />Dog</label>
+    <label><input type="radio" ng-model="details.yourpet" value="bird" />Bird</label>
+    <label><input type="radio" ng-model="details.yourpet" value="fish" />Fishes</label><br />
+    <input type="button" ng-click="reset()" value="Reset" class="button"/>
+    <input type="submit" ng-click="update(details)" value="Save" class="button2"/>
+  </form>
+  <div class="wrap2">
+  <pre>details = {{details | json}}</pre>
+  <pre>confirm = {{confirm | json}}</pre>
+</div>
+</div>
+
+</div>
+<script>
+  angular.module('formExample', [])
+    .controller('ExampleController', ['$scope', function($scope) {
+      $scope.confirm = {};
+
+      $scope.update = function(details) {
+        $scope.confirm = angular.copy(details);
+      };
+
+      $scope.reset = function() {
+        $scope.details = angular.copy($scope.confirm);
+      };
+
+      $scope.reset();
+    }]);
+</script>
+</body>
+</html>

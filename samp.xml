@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<breakfast_menu>
+
+<food>
+<name>Royal Canin Breed Health Nutrition Labrador Retriever Adult Dry Dog Food – 3 kg</name>
+<price>$5.95</price>
+<description>Dogs food</description> <calories>650</calories>
+</food>
+
+<food>
+<name>Drools Adult(+1 year) Dry Cat Food, Ocean Fish, 3 kg + 1.2 kg Free</name>
+<price>$7.95</price>
+<description>Cats food</description>
+<calories>900</calories>
+</food>
+
+<food>
+<name>Pedigree</name>
+<price>$8.95</price>
+<description>Dog food</description>
+<calories>900</calories>
+</food>
+
+<food>
+<name>Me-O Tuna Dry Cat Food (3 KG)</name>
+<price>$4.50</price>
+<description>Cats food</description>
+<calories>600</calories>
+</food>
+
+<food>
+<name>Drools Chicken and Egg Adult Dog Food, 3 kg with Free 1.2 kg</name>
+<price>$6.95</price>
+<description>Dogs food</description>
+<calories>950</calories>
+</food>
+
+</breakfast_menu>

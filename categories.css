@@ -1,0 +1,64 @@
+.body {
+  background-image: url("texture.jpg");
+  background-repeat: repeat;
+  background-attachment: fixed;
+}
+.container {
+  position: relative;
+  margin-right: 185px;
+  margin-left: 120px;
+  border-radius: 100px;
+
+}
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+  border-radius: 100px;
+
+}
+.topnav a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 20px 100px;
+  text-decoration: none;
+  font-size: 17px;
+  border-radius: 100px;
+}
+
+.topnav a:hover {
+  background-color: #8d30ff;
+}
+table {
+  border: 1px solid #ffe79e;
+}
+th, td {
+  border: 1px solid #ffe79e;
+  padding: 50px;
+}
+.tab {
+  margin-top: 50px;
+  margin-left: 100px;
+  margin-right: 50px;
+  color: white;
+  border-style: solid;
+  border-color:  #ffe79e;
+  background-color: #8d30ff;
+}
+.colsec {
+  display: flex;
+  margin-left: 100px;
+}
+.colimg {
+  padding-left: 10px;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  margin-top: 20px;
+  margin-right: 20px;
+  margin-left: 300px;
+  margin-bottom: -20px;
+}
+.colp {
+  margin-top: 35px;
+}

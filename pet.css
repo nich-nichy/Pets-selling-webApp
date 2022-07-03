@@ -1,0 +1,88 @@
+.body {
+  background-image: url("texture.jpg");
+  background-repeat: repeat;
+  background-size: contain;
+}
+h2{
+  margin-left: 150px;
+  font-size: 30px;
+}
+p {
+  margin-left: 130px;
+}
+.css-form input.ng-invalid.ng-touched {
+    background-color: #FA787E;
+  }
+
+  .css-form input.ng-valid.ng-touched {
+    background-color: #78FA89;
+  }
+  .wrapper {
+    margin-top: 20px;
+    margin-left: 300px;
+    margin-right: 300px;
+    border: 1px solid black;
+    border-radius: 50px;
+    box-shadow: 5px 5px 5px 5px;
+    padding: 50px;
+    padding-left: 150px;
+    padding-right: 100px;
+    background-color: white;
+  }
+.button {
+   padding: 10px;
+   padding-left: 25px;
+   padding-right: 25px;
+   border-radius: 50px;
+   border: 2px solid #fff;
+   background-color: #8d30ff;
+   color: white;
+   margin-top: 20px;
+   margin-left: 120px;
+}
+.button:hover {
+  background-color: #ffe79e;
+  color: black;
+  border: 1px solid #8d30ff;
+}
+.button2 {
+   padding: 10px;
+   padding-left: 25px;
+   padding-right: 25px;
+   border-radius: 50px;
+   border: 2px solid #fff;
+   background-color: #8d30ff;
+   color: white;
+}
+.button2:hover {
+  background-color: #ffe79e;
+  color: black;
+  border: 1px solid #8d30ff;
+}
+.labnam {
+  margin-left: 50px;
+}
+.labema {
+  margin-left: 50px;
+}
+.name {
+  padding: 10px;
+  border-radius: 50px;
+  background-color: white;
+  border: 2px solid black;
+  margin: 15px;
+}
+.email {
+  padding: 10px;
+  border-radius: 50px;
+  background-color: white;
+  border: 2px solid black;
+  margin: 10px;
+  margin-bottom: 20px;
+}
+.wrap2 {
+  margin-top: 20px;
+  margin-left: -80px;
+  border: 1px solid black;
+  padding-left: 20px;
+}
